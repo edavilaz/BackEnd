@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Name": "BackEnd.API\\BackEnd.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "BackEnd.Blazor\\BackEnd.Blazor.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

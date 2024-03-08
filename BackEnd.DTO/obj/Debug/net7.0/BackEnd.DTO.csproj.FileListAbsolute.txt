@@ -1,0 +1,12 @@
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.DTO\bin\Debug\net7.0\BackEnd.DTO.deps.json
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.DTO\bin\Debug\net7.0\BackEnd.DTO.dll
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.DTO\bin\Debug\net7.0\BackEnd.DTO.pdb
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.DTO\obj\Debug\net7.0\BackEnd.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.DTO\obj\Debug\net7.0\BackEnd.DTO.AssemblyInfoInputs.cache
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.DTO\obj\Debug\net7.0\BackEnd.DTO.AssemblyInfo.cs
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.DTO\obj\Debug\net7.0\BackEnd.DTO.csproj.CoreCompileInputs.cache
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.DTO\obj\Debug\net7.0\BackEnd.DTO.sourcelink.json
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.DTO\obj\Debug\net7.0\BackEnd.DTO.dll
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.DTO\obj\Debug\net7.0\refint\BackEnd.DTO.dll
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.DTO\obj\Debug\net7.0\BackEnd.DTO.pdb
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.DTO\obj\Debug\net7.0\ref\BackEnd.DTO.dll

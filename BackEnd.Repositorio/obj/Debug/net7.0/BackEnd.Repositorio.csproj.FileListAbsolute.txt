@@ -1,0 +1,16 @@
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.Repositorio\bin\Debug\net7.0\BackEnd.Repositorio.deps.json
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.Repositorio\bin\Debug\net7.0\BackEnd.Repositorio.dll
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.Repositorio\bin\Debug\net7.0\BackEnd.Repositorio.pdb
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.Repositorio\bin\Debug\net7.0\BackEnd.Modelo.dll
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.Repositorio\bin\Debug\net7.0\BackEnd.Modelo.pdb
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.Repositorio\obj\Debug\net7.0\BackEnd.Repositorio.csproj.AssemblyReference.cache
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.Repositorio\obj\Debug\net7.0\BackEnd.Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.Repositorio\obj\Debug\net7.0\BackEnd.Repositorio.AssemblyInfoInputs.cache
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.Repositorio\obj\Debug\net7.0\BackEnd.Repositorio.AssemblyInfo.cs
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.Repositorio\obj\Debug\net7.0\BackEnd.Repositorio.csproj.CoreCompileInputs.cache
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.Repositorio\obj\Debug\net7.0\BackEnd.Repositorio.sourcelink.json
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.Repositorio\obj\Debug\net7.0\BackEnd..793EB2BB.Up2Date
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.Repositorio\obj\Debug\net7.0\BackEnd.Repositorio.dll
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.Repositorio\obj\Debug\net7.0\refint\BackEnd.Repositorio.dll
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.Repositorio\obj\Debug\net7.0\BackEnd.Repositorio.pdb
+D:\PROYECTOS\Blazor2023\BackEnd\BackEnd.Repositorio\obj\Debug\net7.0\ref\BackEnd.Repositorio.dll
