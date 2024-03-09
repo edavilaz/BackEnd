@@ -101,8 +101,12 @@ Por otro lado y no menos importante se tiene el proyecto de api, que se realiza 
 Se intentó usar QuickGrid [https://aspnet.github.io/quickgridsamples/](https://aspnet.github.io/quickgridsamples/), para una forma de generar tablas de manera mucho más vistosa, pero no fue posible la correcta configuración entonces se decidió dejar pendiente esa mejora.
 
 
-## Autor del proyecto
+## Autores del proyecto
 
 Jaime Enrique Dávila Zuazo
+
+Jonnathan Beltrán Palacios
+
+Cristian Guzmán Olmos
 
 
