@@ -14,11 +14,46 @@ En el presente proyecto, se realiza la muestra de una aplicación simulando una 
 
 
 Se puede hacer el CRUD en todas las tablas, Usuario, Categorías, Productos. Para un correcto funcionamiento de la aplicación se deja el archivo backend.bak[banckend.bak](README/backend.bak), dentro de la carpeta README. La base de datos backend fue realizada en sqlserver versión 18.11.1.
+## Estructura del Proyecto
+La estructura de la solución BackEnd es la siguiente:
+
+![Estructura](README/solucion.png)
+
+A continuación explicamos para que sirve cada librería o proyecto:
+
+1. **API** 
+
+Se trata de un proyecto, el cual contiene los controladores y la conexión a la Base de Datos y el mismo gracias a Swagger logra dar una vista de la API.
+
+2. **BLAZOR**
+
+Este es el proyecto realizado en Blazor WebAssembly, en el se tiene la estructura del FrontEnd y se alimenta de la API y del Proyecto DTO.
+
+3. **DTO**
+
+Este Proyecto es una biblioteca de clases, es una capa de transferencia de datos, es decir que de una clase USUARIO, se crearon las clases para el login, para sesión y para los datos que se necesitan mostrar del usuario y también con las otras tablas se ajustaron algunos datos.
+
+4. **MODELO**
+
+Este proyecto es una biblioteca de clases, en la cual se tienen las clases o entidades originales, que nacieron de la base de datos. (Categoría, Detalle Venta, Usuario, Producto, Venta).
+
+5. **REPOSITORIO**
+
+En esta biblioteca de clases, se tiene el DbContext, que es la conexión a la base de datos original y en él se crean Interfaces y Clases que son de uso genérico.
+
+6. **SERVICIO**
+
+En esta biblioteca de clases, se usa la capa DTO, para crear las interfaces y clases que posteriormente se usan en el proyecto Blazor y muestran los datos en el FrontEnd.
+
+7. **UTILIDADES**
+
+Esta biblioteca de clases, utiliza un nuget llamado **Automapper**, gracias al cual se realiza el mapeo de los datos entre la capa DTO con nuestra Base original, esto para lograr la transferencia de datos correcta. 
 
 
 ## Funcionalidades De la aplicación BackEnd
 
 ### Pantalla de Inicio
+
 En ella se ingresa sólo al catalogo de productos el cual tiene un filtro para buscar por categorías y un buscador. Para poder comprar un articulo el cliente deberá iniciar sesión.
 
 ![Pantalla 1]![(Pantalla%201.png)](README/Pantalla%201.png)
@@ -64,7 +99,6 @@ Por otro lado y no menos importante se tiene el proyecto de api, que se realiza 
 
 #### Posible Mejora
 Se intentó usar QuickGrid [https://aspnet.github.io/quickgridsamples/](https://aspnet.github.io/quickgridsamples/), para una forma de generar tablas de manera mucho más vistosa, pero no fue posible la correcta configuración entonces se decidió dejar pendiente esa mejora.
-
 
 
 ## Autor del proyecto
