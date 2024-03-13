@@ -5,7 +5,7 @@ using System.Reflection;
 
 namespace BackEnd.Blazor.Servicios.Implementacion
 {
-    public class UsuarioServicio: IUsuarioServicio
+    public class UsuarioServicio : IUsuarioServicio
     {
         private readonly HttpClient _httpClient;
 
@@ -36,7 +36,7 @@ namespace BackEnd.Blazor.Servicios.Implementacion
         }
 
         public async Task<ResponseDTO<bool>> Eliminar(int id)
-        { 
+        {
             return await _httpClient.DeleteFromJsonAsync<ResponseDTO<bool>>($"Usuario/Eliminar/{id}");
         }
 
@@ -49,5 +49,5 @@ namespace BackEnd.Blazor.Servicios.Implementacion
         {
             return await _httpClient.GetFromJsonAsync<ResponseDTO<UsuarioDTO>>($"Usuario/Obtener/{id}");
         }
-    }        
+    }
 }

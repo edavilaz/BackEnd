@@ -1,7 +1,7 @@
 {
   "entryAssembly": "BackEnd.Blazor",
   "resources": {
-    "hash": "sha256-YPk3TlraabmH6BSQyL3rIxjFPg+zxK98XGqxCF/N7Z8=",
+    "hash": "sha256-ST61QHiYv39TjZGJy6psCTwl3lajbPDcQqJ8eIirvVw=",
     "runtime": {
       "dotnet.7.0.16.kzkv3zxir0.js": "sha256-4BiArKugJJtpQrznGF5zWfmJ2TB98+p6rKsyoqhtMk4=",
       "dotnet.timezones.blat": "sha256-rwyJqJu36keQwNmm/O1XV7tnkkVldIOK8GIjn4gTUt4=",
@@ -206,12 +206,12 @@
       "mscorlib.dll": "sha256-7yxnoj0sx/xIMKjSCkfYzaeQKDj1UsUSr/JXW7fRggs=",
       "netstandard.dll": "sha256-c9xgB5oQro5/rBTTHeD+4cqLi9QOB+6fhaP3jmkeGo4=",
       "System.Private.CoreLib.dll": "sha256-FGXoQzMt7mcWfUZbWXoXgg8tPIt7PF+QZoXXBQWegAQ=",
-      "BackEnd.DTO.dll": "sha256-wrm5x87i4sR8AE2FrEwoDbgQ0vGnUPftZT/04+63zzc=",
-      "BackEnd.Blazor.dll": "sha256-k9bQJW+4yklj6hv9cMyiYx12vp095X2G8ga2wqiXkXk="
+      "BackEnd.DTO.dll": "sha256-gSjIiG4H0qF2sxKs7i9vrZdc98bVXb8szzuJdM4Mvgs=",
+      "BackEnd.Blazor.dll": "sha256-nifv5h7ofZjsOR+Q4ZjVYjKPNAMEb0ELVzopPMeqkQc="
     },
     "pdb": {
-      "BackEnd.DTO.pdb": "sha256-oH6SzomeCBlISEe5JcfriNcKrIrV9ytZ3dfT176inJs=",
-      "BackEnd.Blazor.pdb": "sha256-RFJcptt5sO1Z2f+zuiFicMagTdAuJOpOetI6JKYpSZ4="
+      "BackEnd.DTO.pdb": "sha256-9ccyF9DlppbuuWTC8hbu/yCKeUV9ujQlNjmNblUlsic=",
+      "BackEnd.Blazor.pdb": "sha256-MqJTN/6AAzPbd4N40NksJt60kvXnk9Xsc75CHHpFADA="
     },
     "runtimeAssets": {
       "dotnet.wasm": {
