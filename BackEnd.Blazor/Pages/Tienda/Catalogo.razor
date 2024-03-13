@@ -27,21 +27,21 @@
 
 
         <div class="card">
-            <div class="card-header text-white bg-dark">
+            <div class="card-header text-white" style="background-color:darkblue">
                 Categorias
             </div>
             <div class="card-body">
                 @if (listaCategoria != null)
                 {
                     // utilizo esta parte para que me aparezca el radio button Todos
-                   <div class="form-check">
+                    <div class="form-check">
                         <input class="form-check-input" type="radio" name="categoria" id="Todos" value="Todos"
-                       @onchange="RadioSeleccion"
-                       checked=@(categoriaSeleccionada.Equals("Todos"))>
-                       <label class="form-check-label" for="Todos">
-                           Todos
-                       </label>
-                   </div>
+                               @onchange="RadioSeleccion"
+                               checked=@(categoriaSeleccionada.Equals("Todos"))>
+                        <label class="form-check-label" for="Todos">
+                            Todos
+                        </label>
+                    </div>
 
 
 
@@ -133,7 +133,7 @@
     private List<ProductoDTO>? listaProducto = null;
     private string buscar = "";
     private string categoriaSeleccionada = "Todos";
-    
+
     private async Task ObtenerCategorias(string Valor = "")
     {
         var response = await categoriaServicio.Lista(Valor);
