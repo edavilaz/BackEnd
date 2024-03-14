@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 
 namespace BackEnd.Blazor.Extensiones
 {
-    public class AutenticacionExtension: AuthenticationStateProvider
+    public class AutenticacionExtension : AuthenticationStateProvider
     {
         private readonly ILocalStorageService _localStorage;
         private ClaimsPrincipal _sinInformacion = new ClaimsPrincipal(new ClaimsIdentity());
@@ -24,7 +24,7 @@ namespace BackEnd.Blazor.Extensiones
         {
             ClaimsPrincipal claimsPrincipal;
 
-            if(sesionUsuario != null)
+            if (sesionUsuario != null)
             {
                 claimsPrincipal = new ClaimsPrincipal(new ClaimsIdentity(new List<Claim>
                 {
@@ -33,9 +33,9 @@ namespace BackEnd.Blazor.Extensiones
                     new Claim(ClaimTypes.Email, sesionUsuario.Correo),
                     new Claim(ClaimTypes.Role, sesionUsuario.Rol)
 
-                },"JwtAuth"));
+                }, "JwtAuth"));
 
-                await _localStorage.SetItemAsync("sesionUsuario",sesionUsuario);
+                await _localStorage.SetItemAsync("sesionUsuario", sesionUsuario);
 
             }
             else
@@ -52,8 +52,8 @@ namespace BackEnd.Blazor.Extensiones
         public override async Task<AuthenticationState> GetAuthenticationStateAsync()
         {
             var sesionUsuario = await _localStorage.GetItemAsync<SesionDTO>("sesionUsuario");
-            
-            if(sesionUsuario == null)
+
+            if (sesionUsuario == null)
                 return await Task.FromResult(new AuthenticationState(_sinInformacion));
 
             var claimsPrincipal = new ClaimsPrincipal(new ClaimsIdentity(new List<Claim>
