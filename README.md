@@ -107,6 +107,5 @@ Jaime Enrique Dávila Zuazo
 
 Jonnathan Beltrán Palacios
 
-Cristian Guzmán Olmos
 
 
