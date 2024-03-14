@@ -101,6 +101,11 @@ Por otro lado y no menos importante se tiene el proyecto de api, que se realiza 
 Se intentó usar QuickGrid [https://aspnet.github.io/quickgridsamples/](https://aspnet.github.io/quickgridsamples/), para una forma de generar tablas de manera mucho más vistosa, pero no fue posible la correcta configuración entonces se decidió dejar pendiente esa mejora.
 
 
+#### Cambios de la última entrega
+
+Debido a que el proyecto está completo, es decir con una API funcional, con conexión a la Base de Datos y demás requisitos del Back-End. Se realizaron algunas mejoras en estilos en la barra de navegación. Se hicieron cambios en los colores de los botones, para lograr dar mayor énfasis al evento hover y algunos otro cambios en estilos y colores que dejaron la página principal de la siguiente manera.
+
+![nuevos colores y estilos](README/estilos%20navbar.png)
 ## Autores del proyecto
 
 Jaime Enrique Dávila Zuazo
