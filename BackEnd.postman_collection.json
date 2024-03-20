@@ -1,0 +1,513 @@
+{
+	"info": {
+		"_postman_id": "c415e031-65cf-4b23-b689-7ca8737aaa23",
+		"name": "BackEnd",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18224998"
+	},
+	"item": [
+		{
+			"name": "Usuario",
+			"item": [
+				{
+					"name": "Lista Clientes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5121/api/Usuario/Lista/Cliente/NA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Usuario",
+								"Lista",
+								"Cliente",
+								"NA"
+							]
+						},
+						"description": "This endpoint makes an HTTP GET request to retrieve a list of clients from the user API. The request should be sent to [http://localhost:5121/api/Usuario/Lista/Cliente/NA](http://localhost:5121/api/Usuario/Lista/Cliente/NA).\n\n### Response\n\n- Status: 200\n- Content-Type: application/json\n    \n\nThe response will be a JSON object with the following structure:\n\n``` json\n{\n    \"resultado\": [\n        {\n            \"idUsuario\": 0,\n            \"nombreCompleto\": \"\",\n            \"correo\": \"\",\n            \"clave\": \"\",\n            \"confirmarClave\": null,\n            \"rol\": \"\"\n        }\n    ],\n    \"esCorrecto\": true,\n    \"mensaje\": null\n}\n\n ```\n\nThe \"resultado\" field contains an array of client objects with their respective \"idUsuario\", \"nombreCompleto\", \"correo\", \"clave\", \"confirmarClave\", and \"rol\" properties. The \"esCorrecto\" field indicates if the operation was successful, and the \"mensaje\" field provides any additional information or error message."
+					},
+					"response": []
+				},
+				{
+					"name": "Lista ADMIN",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5121/api/Usuario/Lista/Administrador/NA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Usuario",
+								"Lista",
+								"Administrador",
+								"NA"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Usuario Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5121/api/Usuario/Obtener/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Usuario",
+								"Obtener",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"idUsuario\": 0,\r\n  \"nombreCompleto\": \"Juan\",\r\n  \"correo\": \"juanito@gmail.com\",\r\n  \"clave\": \"789\",\r\n  \"confirmarClave\": \"789\",\r\n  \"rol\": \"Cliente\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5121/api/Usuario/Crear",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Usuario",
+								"Crear"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"idUsuario\": 7,\r\n  \"nombreCompleto\": \"Juan\",\r\n  \"correo\": \"juanito2@gmail.com\",\r\n  \"clave\": \"12345\",\r\n  \"confirmarClave\": \"12345\",\r\n  \"rol\": \"Cliente\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5121/api/Usuario/Editar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Usuario",
+								"Editar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5121/api/Usuario/Eliminar/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Usuario",
+								"Eliminar",
+								"7"
+							]
+						},
+						"description": "\nThis endpoint sends an HTTP DELETE request to http://localhost:5121/api/Usuario/Eliminar/7 to delete a user with the ID 7. The response returns a status of 200 and the content type is application/json. The response body contains a JSON object with the keys \"resultado\", \"esCorrecto\", and \"mensaje\". The \"resultado\" key indicates the result of the operation, \"esCorrecto\" specifies if the operation was successful, and \"mensaje\" provides any additional message related to the operation.\n"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Categoria",
+			"item": [
+				{
+					"name": "Obtener Categoria",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5121/api/Categoria/Obtener/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Categoria",
+								"Obtener",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lista",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5121/api/Categoria/Lista/NA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Categoria",
+								"Lista",
+								"NA"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"idCategoria\": 0,\r\n  \"nombre\": \"Neveras\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5121/api/Categoria/Crear",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Categoria",
+								"Crear"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"idCategoria\": 5,\r\n  \"nombre\": \"Otra Categoria\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5121/api/Categoria/Editar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Categoria",
+								"Editar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5121/api/Categoria/Eliminar/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Categoria",
+								"Eliminar",
+								"5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Dashboard",
+			"item": [
+				{
+					"name": "Resumen",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5121/api/Dashboard/Resumen",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Dashboard",
+								"Resumen"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Producto",
+			"item": [
+				{
+					"name": "Lista",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5121/api/Producto/Lista/NA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Producto",
+								"Lista",
+								"NA"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Lista por Categoria",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5121/api/Producto/Catalogo/televisores/NA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Producto",
+								"Catalogo",
+								"televisores",
+								"NA"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5121/api/Producto/Obtener/30",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Producto",
+								"Obtener",
+								"30"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"idProducto\": 0,\r\n  \"nombre\": \"celular\",\r\n  \"descripcion\": \"celular\",\r\n  \"idCategoria\": 2,\r\n  \"precio\": 12000,\r\n  \"precioOferta\": 0,\r\n  \"cantidad\": 5,\r\n  \"imagen\": \"string\",\r\n  \"fechaCreacion\": \"2024-03-14T21:57:50.117Z\",\r\n  \"idCategoriaNavigation\": {\r\n    \"idCategoria\": 2,\r\n    \"nombre\": \"Celulares\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5121/api/Producto/Crear",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Producto",
+								"Crear"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"idProducto\": 46,\r\n  \"nombre\": \"string\",\r\n  \"descripcion\": \"string\",\r\n  \"idCategoria\": 2,\r\n  \"precio\": 0,\r\n  \"precioOferta\": 0,\r\n  \"cantidad\": 0,\r\n  \"imagen\": \"string\",\r\n  \"fechaCreacion\": \"2024-03-14T22:00:30.933Z\",\r\n  \"idCategoriaNavigation\": {\r\n    \"idCategoria\": 2,\r\n    \"nombre\": \"Categoria\"\r\n  }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5121/api/Producto/Editar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Producto",
+								"Editar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5121/api/Producto/Eliminar/45",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Producto",
+								"Eliminar",
+								"45"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Venta",
+			"item": [
+				{
+					"name": "Registrar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"idVenta\": 0,\r\n  \"idUsuario\": 0,\r\n  \"total\": 0,\r\n  \"detalleVenta\": [\r\n    {\r\n      \"idDetalleVenta\": 0,\r\n      \"idProducto\": 0,\r\n      \"cantidad\": 0,\r\n      \"total\": 0\r\n    }\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5121/api/Venta/Registrar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5121",
+							"path": [
+								"api",
+								"Venta",
+								"Registrar"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
